@@ -21,7 +21,9 @@ main {
     margin: auto;
     padding: 1rem;
     max-width: var(--width-break);
-    
+}
+main p {
+    margin: 0;
 }
 textarea {
     box-sizing: border-box;
@@ -36,7 +38,7 @@ textarea {
 
 button {
     padding: 1rem;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     align-self: center;
     border-radius: 0.5rem;
     background-color: white;
