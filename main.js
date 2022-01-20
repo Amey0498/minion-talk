@@ -11,7 +11,7 @@ function constructURL(text) {
 }
 translateBtnEl.addEventListener("click", () => {
     let input = translateInputText.value
-    if(input == "") {
+    if(input.trim().length === 0 || input == "") {
         alert("You have not entered the text to be translated.. Kindly enter the text to be translated")
         return
     }
